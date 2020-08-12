@@ -1,8 +1,8 @@
 var level = prompt('请输入A，B，C，D')
 var str
 switch (level) {
-    case "A":
-        srt = "你的成绩优秀"
+    case 'A':
+        str = "你的成绩优秀"
         
         break;
 
@@ -11,4 +11,4 @@ switch (level) {
         break;
 }
 
-console.log(str)
+console.log('str',str)
