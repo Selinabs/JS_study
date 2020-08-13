@@ -23,8 +23,8 @@ def about_min(t):
     print(t)
     for i in range(len(t)):
         minIndex = i
-        for j in range(len(t)):
-            if t[j] > t[minIndex]:
+        for j in range(i,len(t)):
+            if t[j] < t[minIndex]:
                 minIndex = j
             b = t[minIndex]
             t[minIndex] = t[i]
