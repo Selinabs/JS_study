@@ -7,12 +7,22 @@
 
 </head>
 <body>
+    <button id="jsk" onclick="test()">按钮</button>
+    <h3 id="nike">测试</h3>
+</br>
     
 </body>
     <!-- <script type="text/javascript">
        document.write("Hello World!")    
     </script> -->
-    <script src="./10-2.js">
+    <script src="./10-1.js">
         document.write('hello world!')
+    </script>
+    <script>
+        function test(){
+            var but = document.getElementById("jsk")
+            but.style.backgroundColor="red"
+            // document.write("触发按钮")
+        }
     </script>
 </html>
